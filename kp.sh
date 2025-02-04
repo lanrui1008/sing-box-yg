@@ -8,9 +8,7 @@
 # 每行一个{serv00服务器}，一个服务也可，末尾用,间隔，最后一个服务器末尾无需用,间隔
 ACCOUNTS='[
 {"RES":"n", "SSH_USER":"你的serv00账号名", "SSH_PASS":"你的serv00账号密码", "REALITY":"你serv00账号名.serv00.net", "SUUID":"自设UUID", "TCP1_PORT":"vless的tcp端口", "TCP2_PORT":"vmess的tcp端口", "UDP_PORT":"hy2的udp端口", "HOST":"s1.serv00.com", "ARGO_DOMAIN":"", "ARGO_AUTH":""},
-{"RES":"y", "SSH_USER":"root", "SSH_PASS":"
-t4HEzBGmF7fs", "REALITY":"time.is", "SUUID":"6686306c-dfe4-45c5-bd5b-7df16b13fe77", "TCP1_PORT":"3886", "TCP2_PORT":"3887", "UDP_PORT":"3888", "HOST":"
-107.148.94.240", "ARGO_DOMAIN":"ra.lanrui.us.kg", "ARGO_AUTH":"eyJhIjoiMmY5OTRiMDEzN2U3ZjQ4YjNjNTQyZTIwYjZiYjI0NDciLCJ0IjoiZTU4ZGFkNDQtYWQ5MC00ZTQ2LTg0MjAtZTUwNjQzZDYwNDI0IiwicyI6IlkySXdaR1F6WXprdFlqZGpZUzAwT0dWbExXRXlPVGN0WXpoaFpEZGtNRFpoWlRFeCJ9"}
+{"RES":"y", "SSH_USER":"root", "SSH_PASS":"t4HEzBGmF7fs", "REALITY":"time.is", "SUUID":"6686306c-dfe4-45c5-bd5b-7df16b13fe77", "TCP1_PORT":"3886", "TCP2_PORT":"3887", "UDP_PORT":"3888", "HOST":"107.148.94.240", "ARGO_DOMAIN":"ra.lanrui.us.kg", "ARGO_AUTH":"eyJhIjoiMmY5OTRiMDEzN2U3ZjQ4YjNjNTQyZTIwYjZiYjI0NDciLCJ0IjoiZTU4ZGFkNDQtYWQ5MC00ZTQ2LTg0MjAtZTUwNjQzZDYwNDI0IiwicyI6IlkySXdaR1F6WXprdFlqZGpZUzAwT0dWbExXRXlPVGN0WXpoaFpEZGtNRFpoWlRFeCJ9"}
 ]'
 run_remote_command() {
   local RES=$1
